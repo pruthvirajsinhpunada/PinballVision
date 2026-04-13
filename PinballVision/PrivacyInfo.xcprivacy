@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!--
+  Privacy Manifest — required by App Store since May 2024.
+
+  APIs used:
+    • UserDefaults  — stores high score and onboarding-seen flag locally.
+                      Reason CA92.1: read/write app-specific state.
+
+  Data collected:
+    • None.  Hand-tracking data stays on-device; game scores go to Apple's
+      GameCenter servers under Apple's own privacy policy.
+
+  Tracking:
+    • false — the app does not track users across apps or websites.
+-->
+<dict>
+	<key>NSPrivacyTracking</key>
+	<false/>
+
+	<key>NSPrivacyTrackingDomains</key>
+	<array/>
+
+	<key>NSPrivacyCollectedDataTypes</key>
+	<array/>
+
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array>
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<!-- CA92.1: Access UserDefaults to read/write app-specific state -->
+				<string>CA92.1</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

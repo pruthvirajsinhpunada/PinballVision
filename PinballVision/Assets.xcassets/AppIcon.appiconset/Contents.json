@@ -1,0 +1,29 @@
+{
+  "images" : [
+    {
+      "filename" : "icon_back.png",
+      "idiom" : "reality",
+      "layer" : "back",
+      "scale" : "2x",
+      "size" : "1024x1024"
+    },
+    {
+      "filename" : "icon_middle.png",
+      "idiom" : "reality",
+      "layer" : "middle",
+      "scale" : "2x",
+      "size" : "1024x1024"
+    },
+    {
+      "filename" : "icon_front.png",
+      "idiom" : "reality",
+      "layer" : "front",
+      "scale" : "2x",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06829EF6B2F21A1AA696310F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F968C1F8B588EED043C91510 /* Assets.xcassets */; };
+		0D97FC2D7F195C3B096BD104 /* PinballTableBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233BB4A7E16C5D75E6CD86A4 /* PinballTableBuilder.swift */; };
+		19AEC4FD194E4D86AB37396E /* pinball_bumper.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FF56B09B9C414E38A1B92080 /* pinball_bumper.usdz */; };
+		3BFD3ABF2EB854E2986FEC07 /* FlipperButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5453F8B23F148F0E5DDFF5 /* FlipperButton.swift */; };
+		4EFBB284FCC597894BB413BF /* PinballVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F39F0F3CD0D157BEB56410 /* PinballVisionApp.swift */; };
+		559DC6F2B3B896EAFE1A9D11 /* PinballVolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E79889D9CF0611247CDE5F2 /* PinballVolumeView.swift */; };
+		664A7A918BB34F558DC0880D /* pinball_diagonal_guard.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2B8688755B264EC294694ACE /* pinball_diagonal_guard.usdz */; };
+		76DE4EAD11D7050333AB863C /* SplashOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5FB43A6AD0FCBB49FDE961 /* SplashOverlay.swift */; };
+		79242774D78391BE52C678B2 /* HandTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1209BA55995703A8AF33D /* HandTrackingManager.swift */; };
+		827B7FE720014CC39F85FF75 /* pinball_table_body.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B875C33D3CA24BB6845D4914 /* pinball_table_body.usdz */; };
+		A06EA959A9F83FA9DA5C70E9 /* GameOverOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BEAE43D81F6538CE89454D /* GameOverOverlay.swift */; };
+		C425406BC600F4EA98E17C60 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A0649E9EDEF08AF873626 /* HUDView.swift */; };
+		C656110A85A24182A2F0022D /* pinball_flipper.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E400B4EC5D1840E2BABE8A90 /* pinball_flipper.usdz */; };
+		C6E7E6A2474ADE58016593A9 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F6BEC2BC03C48E15B0B6D1 /* GameModel.swift */; };
+		CD763436A2804192A0EB8BF8 /* pinball_ball.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8BBEA53D5A824F47BB4EF404 /* pinball_ball.usdz */; };
+		D0EBF9F174754ECF82C88886 /* pinball_lane_led.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6131D29189E74732B08C57A5 /* pinball_lane_led.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A3A0649E9EDEF08AF873626 /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
+		233BB4A7E16C5D75E6CD86A4 /* PinballTableBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinballTableBuilder.swift; sourceTree = "<group>"; };
+		2416B2C7F00054793169A724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2B8688755B264EC294694ACE /* pinball_diagonal_guard.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinball_diagonal_guard.usdz; sourceTree = "<group>"; };
+		54BEAE43D81F6538CE89454D /* GameOverOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverOverlay.swift; sourceTree = "<group>"; };
+		6131D29189E74732B08C57A5 /* pinball_lane_led.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinball_lane_led.usdz; sourceTree = "<group>"; };
+		79F6BEC2BC03C48E15B0B6D1 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		7E79889D9CF0611247CDE5F2 /* PinballVolumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinballVolumeView.swift; sourceTree = "<group>"; };
+		82F39F0F3CD0D157BEB56410 /* PinballVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinballVisionApp.swift; sourceTree = "<group>"; };
+		8BBEA53D5A824F47BB4EF404 /* pinball_ball.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinball_ball.usdz; sourceTree = "<group>"; };
+		8E5FB43A6AD0FCBB49FDE961 /* SplashOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashOverlay.swift; sourceTree = "<group>"; };
+		AFD1209BA55995703A8AF33D /* HandTrackingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandTrackingManager.swift; sourceTree = "<group>"; };
+		B875C33D3CA24BB6845D4914 /* pinball_table_body.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinball_table_body.usdz; sourceTree = "<group>"; };
+		CC5453F8B23F148F0E5DDFF5 /* FlipperButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipperButton.swift; sourceTree = "<group>"; };
+		D5703DA4EB29ACB8D89EC61B /* PinballVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinballVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E400B4EC5D1840E2BABE8A90 /* pinball_flipper.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinball_flipper.usdz; sourceTree = "<group>"; };
+		ED97F43638E37616073B4581 /* PinballVision.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PinballVision.entitlements; sourceTree = "<group>"; };
+		F968C1F8B588EED043C91510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF56B09B9C414E38A1B92080 /* pinball_bumper.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinball_bumper.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4AD8519E72C7C5C2D934D46F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5703DA4EB29ACB8D89EC61B /* PinballVision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		766776447A23AF9272B02ABA /* PinballVision */ = {
+			isa = PBXGroup;
+			children = (
+				F968C1F8B588EED043C91510 /* Assets.xcassets */,
+				CC5453F8B23F148F0E5DDFF5 /* FlipperButton.swift */,
+				79F6BEC2BC03C48E15B0B6D1 /* GameModel.swift */,
+				54BEAE43D81F6538CE89454D /* GameOverOverlay.swift */,
+				AFD1209BA55995703A8AF33D /* HandTrackingManager.swift */,
+				0A3A0649E9EDEF08AF873626 /* HUDView.swift */,
+				2416B2C7F00054793169A724 /* Info.plist */,
+				233BB4A7E16C5D75E6CD86A4 /* PinballTableBuilder.swift */,
+				ED97F43638E37616073B4581 /* PinballVision.entitlements */,
+				82F39F0F3CD0D157BEB56410 /* PinballVisionApp.swift */,
+				7E79889D9CF0611247CDE5F2 /* PinballVolumeView.swift */,
+				8E5FB43A6AD0FCBB49FDE961 /* SplashOverlay.swift */,
+				B875C33D3CA24BB6845D4914 /* pinball_table_body.usdz */,
+				E400B4EC5D1840E2BABE8A90 /* pinball_flipper.usdz */,
+				FF56B09B9C414E38A1B92080 /* pinball_bumper.usdz */,
+				8BBEA53D5A824F47BB4EF404 /* pinball_ball.usdz */,
+				2B8688755B264EC294694ACE /* pinball_diagonal_guard.usdz */,
+				6131D29189E74732B08C57A5 /* pinball_lane_led.usdz */,
+			);
+			path = PinballVision;
+			sourceTree = "<group>";
+		};
+		FDEB80D4E3DAA887E6C51275 = {
+			isa = PBXGroup;
+			children = (
+				766776447A23AF9272B02ABA /* PinballVision */,
+				4AD8519E72C7C5C2D934D46F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6C3A4AD84ED8E62CABC368 /* PinballVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04462AA1DDAA9FA6733B71B4 /* Build configuration list for PBXNativeTarget "PinballVision" */;
+			buildPhases = (
+				ABA534D1F703EE83A01AA620 /* Sources */,
+				DC84FE83EEE198A41CC7B6A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinballVision;
+			packageProductDependencies = (
+			);
+			productName = PinballVision;
+			productReference = D5703DA4EB29ACB8D89EC61B /* PinballVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		264E9C180BF369951C8DF7D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					CE6C3A4AD84ED8E62CABC368 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E6D962C473D49C08B14E3BE3 /* Build configuration list for PBXProject "PinballVision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = FDEB80D4E3DAA887E6C51275;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6C3A4AD84ED8E62CABC368 /* PinballVision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC84FE83EEE198A41CC7B6A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06829EF6B2F21A1AA696310F /* Assets.xcassets in Resources */,
+				827B7FE720014CC39F85FF75 /* pinball_table_body.usdz in Resources */,
+				C656110A85A24182A2F0022D /* pinball_flipper.usdz in Resources */,
+				19AEC4FD194E4D86AB37396E /* pinball_bumper.usdz in Resources */,
+				CD763436A2804192A0EB8BF8 /* pinball_ball.usdz in Resources */,
+				664A7A918BB34F558DC0880D /* pinball_diagonal_guard.usdz in Resources */,
+				D0EBF9F174754ECF82C88886 /* pinball_lane_led.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA534D1F703EE83A01AA620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFD3ABF2EB854E2986FEC07 /* FlipperButton.swift in Sources */,
+				C6E7E6A2474ADE58016593A9 /* GameModel.swift in Sources */,
+				A06EA959A9F83FA9DA5C70E9 /* GameOverOverlay.swift in Sources */,
+				C425406BC600F4EA98E17C60 /* HUDView.swift in Sources */,
+				79242774D78391BE52C678B2 /* HandTrackingManager.swift in Sources */,
+				0D97FC2D7F195C3B096BD104 /* PinballTableBuilder.swift in Sources */,
+				4EFBB284FCC597894BB413BF /* PinballVisionApp.swift in Sources */,
+				559DC6F2B3B896EAFE1A9D11 /* PinballVolumeView.swift in Sources */,
+				76DE4EAD11D7050333AB863C /* SplashOverlay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8DF253CD2FC19100E24E551D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PinballVision/PinballVision.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = PinballVision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruthvirajsinh.PinballVision;
+				SDKROOT = xros;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		8F9C2A35591648CE59FAFD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		937634AD4817E10FB2E9EECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D75E645B1802B40B02B414FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PinballVision/PinballVision.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = PinballVision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruthvirajsinh.PinballVision;
+				SDKROOT = xros;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04462AA1DDAA9FA6733B71B4 /* Build configuration list for PBXNativeTarget "PinballVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75E645B1802B40B02B414FE /* Debug */,
+				8DF253CD2FC19100E24E551D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6D962C473D49C08B14E3BE3 /* Build configuration list for PBXProject "PinballVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9C2A35591648CE59FAFD4C /* Debug */,
+				937634AD4817E10FB2E9EECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 264E9C180BF369951C8DF7D0 /* Project object */;
+}
